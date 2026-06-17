@@ -15,7 +15,7 @@ permitindo adicionar, concluir e filtrar tarefas de forma simples e intuitiva.
 
 ## 📋 Sobre o Projeto
 
-Este projeto foi desenvolvido como exercício prático da disciplina de **Análise e Desenvolvimento de Sistemas**, com foco no aprendizado de componentes React reutilizáveis e gerenciamento de estado global com `useContext` e `useReducer`.
+Este projeto foi desenvolvido como exercício prático da disciplina de **LINGUAGEM DE PROGRAMAÇÃO PARA A INTERNET**, com foco no aprendizado de componentes React reutilizáveis e gerenciamento de estado global com `useContext` e `useReducer`.
 
 ---
 
@@ -73,10 +73,10 @@ git clone https://github.com/Suiany-Xavier/gerenciador-de-tarefas.git
 cd gerenciador-de-tarefas
 
 # 3. Instale as dependências
-npm install
+yarn install
 
 # 4. Inicie o servidor de desenvolvimento
-npm start
+yarn start
 ```
 
 A aplicação abrirá automaticamente em `http://localhost:3000`.
@@ -94,6 +94,6 @@ A aplicação abrirá automaticamente em `http://localhost:3000`.
 ## 👩‍💻 Autora
 
 **Suiany Xavier de Oliveira**  
-Estudante de Análise e Desenvolvimento de Sistemas — Faculdade Multivix, Nova Venécia/ES
+Estudante de Análise e Desenvolvimento de Sistemas — Polo Uniube, Nova Venécia/ES
 
 [![GitHub](https://img.shields.io/badge/GitHub-Suiany--Xavier-181717?style=flat-square&logo=github)](https://github.com/Suiany-Xavier)
