@@ -1,0 +1,61 @@
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem 1.25rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.app-titulo {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.input-row input {
+  flex: 1;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1a1a1a;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.input-row input:focus {
+  border-color: #185fa5;
+  box-shadow: 0 0 0 3px rgba(24, 95, 165, 0.15);
+}
+
+.btn-adicionar {
+  height: 36px;
+  padding: 0 16px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #1a1a1a;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.btn-adicionar:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-adicionar:active {
+  transform: scale(0.98);
+}
